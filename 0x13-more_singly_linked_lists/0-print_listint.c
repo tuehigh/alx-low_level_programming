@@ -6,12 +6,13 @@
  * Return:number of present nodes
  */
 
-size.t print_listint(const listint_t *h)
+size_t print_listint(const listint_t *h)
+
 {
 	size_t count = 0;
-	while(h)
+	while (h)
 	{
-		printf("%id\n",h->n);
+		printf("%id\n", h->n);
 		count++;
 		h = h->next;
 	}

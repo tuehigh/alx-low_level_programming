@@ -1,5 +1,3 @@
-0-sum_them_all.c
-
 #include "variadic_functions.h"
 #include <stdarg.h>
 
